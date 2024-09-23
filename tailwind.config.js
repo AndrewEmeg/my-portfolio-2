@@ -24,7 +24,11 @@ module.exports = {
           200: "#0C0C1E",
           300: "#4D0011",
           400: "#F3E3E2",
+          500: "#C5C5E8",
         },
+      },
+      boxShadow: {
+        "custom-inset": "inset 0 0 0 2px rgb(77, 0, 17)",
       },
       // backgroundImage: {
       //   "tech-pattern": "url('/img/hero-pattern.svg')",

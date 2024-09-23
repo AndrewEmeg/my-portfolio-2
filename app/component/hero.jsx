@@ -13,7 +13,7 @@ const Hero = () => {
           </h2>
           <Link
             href="/projects"
-            className="bg-brand-200 mb-8 text-gray-100 px-8 py-4 self-center text-xl lg:self-start rounded-lg font-jet"
+            className="bg-brand-200 mb-8 text-white px-8 py-4 self-center text-xl lg:self-start font-jet hover:bg-white hover:border-brand-200  hover:shadow-custom-inset hover:text-brand-200 transition-all duration-300 ease-in-out"
           >
             View my work
           </Link>

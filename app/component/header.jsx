@@ -23,14 +23,25 @@ const Header = () => {
       </span>
     </div>
   ) : (
-    <div className="bg-brand-200 text-white flex justify-between items-center p-12 font-rubik font-semibold ">
-      <Link href="/" className="text-4xl tracking-tight">
+    <div className="bg-gradient-to-br from-brand-200 to-teal-300 text-white flex justify-between items-center p-12 font-jet font-semibold ">
+      <Link
+        href="/"
+        className="text-3xl font-bold items-center tracking-tighter"
+      >
         Desdev
       </Link>
-      <nav className="hidden sm:flex gap-8 text-3xl font-light items-center">
-        <Link href="/projects">Projects</Link>
-        <Link href="/blog">Blog</Link>
-        <Link target="_blank" href="https://www.linkedin.com/in/andrewemeghebo">
+      <nav className="hidden sm:flex gap-8 text-2xl font-bold items-center tracking-tighter">
+        <Link href="/projects" className="pseudo">
+          Projects
+        </Link>
+        <Link href="/blog" className="pseudo">
+          Blog
+        </Link>
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/andrewemeghebo"
+          className="pseudo"
+        >
           LinkedIn
         </Link>
 

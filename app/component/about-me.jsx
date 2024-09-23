@@ -2,18 +2,19 @@ import Image from "next/image";
 
 const AboutMe = () => {
   return (
-    <div className="font-rubik bg-brand-200 text-white">
-      <div className="flex gap-16 flex-col py-48 px-8 sm:px-16 text-center lg:grid lg:grid-cols-2 lg:items-center">
+    <div className="bg-gradient-to-br from-cyan-300 to-teal-300 font-jet text-white">
+      <div className="flex gap-16 flex-col py-32 px-8 sm:px-16 text-center lg:grid lg:grid-cols-2 lg:items-center">
+        <h2 className="text-5xl font-bold">About Me</h2>
         <Image
-          src="/images/6E6A43E2-03A2-4E60-A62F-75BFE6323864_1_105_c.jpeg"
+          src="/images/atl.jpeg"
           alt="Description of the image"
           width={50}
           height={5}
           layout="responsive"
           className="rounded-md"
         />
-        <div className="flex gap-4 flex-col lg:text-left font-rubik text-xl text-left font-light">
-          <h2 className="text-5xl font-bold">About Me</h2>
+
+        <div className="flex gap-4 flex-col lg:text-left text-black text-lg text-left font-light">
           <p>
             🚀 Hey there! I&apos;m Andrew, a passionate web developer with a
             unique blend of creativity and technical expertise. My journey began

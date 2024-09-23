@@ -20,5 +20,20 @@
   background-size: 10%;
   filter: grayscale(100%); /* Apply gray filter to only the background image */
   z-index: -51; /* Keep the background behind the content */
-  backdrop-filter: gray;
+  backdrop-filter: rgb(77, 0, 17);
+}
+
+.pseudo::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #f3e3e2;
+  transition: width 0.5s;
+  margin-top: 0.35rem;
+  border-radius: 0.5rem;
+}
+
+.pseudo:hover::after {
+  width: 100%;
 }
