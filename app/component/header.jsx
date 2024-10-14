@@ -34,9 +34,9 @@ const Header = () => {
                 <Link href="/projects" className="pseudo">
                     Projects
                 </Link>
-                <Link href="/blog" className="pseudo">
+                {/* <Link href="/blog" className="pseudo">
                     Blog
-                </Link>
+                </Link> */}
                 <Link
                     target="_blank"
                     href="https://flowcv.com/resume/4rnvb9ae2l"
