@@ -39,7 +39,8 @@ const Header = () => {
                 </Link> */}
                 <Link
                     target="_blank"
-                    href="https://flowcv.com/resume/4rnvb9ae2l"
+                    href="https://www.overleaf.com/read/mbqgjqbzyygt#7f00b0"
+                    // href="https://flowcv.com/resume/4rnvb9ae2l"
                     className="pseudo"
                 >
                     Resume
